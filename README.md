@@ -8,6 +8,8 @@ If there's volatility in the market, it will fill the pair of limit orders above
 
 In any case, creating open limit orders increases the liquidity in the markets, which is a service to traders.
 
+Additionally, this bot will be looking at each bet made in the recent past and bet accordingly if the bet was made by a competent trader (positive total profits), and bet against them if the bet was made by an incompetent trader (negative total profits). There might be a more complex formula than this, with bets made against recently-created accounts for instance.
+
 
 # Run this bot!
 
